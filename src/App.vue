@@ -19,7 +19,9 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <style>
 @import './assets/base.css';
-
+h1 {
+  color: red;
+}
 #app {
   max-width: 1280px;
   margin: 0 auto;
@@ -40,7 +42,7 @@ header {
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+ 
   transition: 0.4s;
 }
 
