@@ -13,7 +13,7 @@ import TheWelcome from './components/TheWelcome.vue'
   </header>
 
   <main>
-
+    <my-first-custom-element></my-first-custom-element>
   </main>
 </template>
 
