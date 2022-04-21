@@ -13,9 +13,9 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'lib/main.js'),
-      name: 'MyLib',
-      fileName: (format) => `my-lib.${format}.js`
+      entry: './src/main.ce.js',
+      name: 'CustomElements',
+      fileName: (format) => `custome-elements.${format}.js`
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
